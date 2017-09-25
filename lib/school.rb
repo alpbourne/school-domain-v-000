@@ -21,9 +21,7 @@ class School
   end
 
   def sort
-    @roster.collect do |a, b|
-      name.sort!
-    end
+    @roster.sort_by{|i| i}
   end
 
 end
