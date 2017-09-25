@@ -22,5 +22,6 @@ class School
 
   def sort(name)
     @roster[grade][name].sort
+  end
 
 end
